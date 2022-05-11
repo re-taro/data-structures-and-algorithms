@@ -1,0 +1,7 @@
+# ninja log v5
+2	747	6739741417504759	CMakeFiles/sort.dir/main.cpp.obj	e195acda6f2a7966
+748	875	6739741418770732	sort.exe	d3d2e7ebd6a3bdf4
+0	912	6739786566312923	CMakeFiles/bubble.dir/bubble-sort.cpp.obj	216773902d910cc8
+914	1077	6739786567948449	bubble.exe	5c5e573592b991ae
+0	643	6739786706689253	CMakeFiles/quick.dir/quick-sort.cpp.obj	1e6f464308689f5a
+644	765	6739786707892723	quick.exe	8fda5b1ef56b62d5

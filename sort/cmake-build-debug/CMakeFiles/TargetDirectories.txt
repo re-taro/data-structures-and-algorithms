@@ -1,0 +1,4 @@
+C:/Repository/data-structures-and-algorithms/sort/cmake-build-debug/CMakeFiles/bubble.dir
+C:/Repository/data-structures-and-algorithms/sort/cmake-build-debug/CMakeFiles/quick.dir
+C:/Repository/data-structures-and-algorithms/sort/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Repository/data-structures-and-algorithms/sort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
