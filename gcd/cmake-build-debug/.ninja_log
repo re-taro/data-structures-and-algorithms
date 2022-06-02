@@ -1,0 +1,5 @@
+# ninja log v5
+1	692	6758725892437427	CMakeFiles/gcd.dir/main.cpp.obj	6ed8dd1fe067d095
+694	913	6758725894602469	gcd.exe	f15cc13194b60dfa
+2	584	6758728149138610	CMakeFiles/gcd.dir/main.cpp.obj	6ed8dd1fe067d095
+584	740	6758728150676030	gcd.exe	f15cc13194b60dfa
