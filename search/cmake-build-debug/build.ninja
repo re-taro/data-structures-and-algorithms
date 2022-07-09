@@ -106,6 +106,39 @@ build binary.exe: CXX_EXECUTABLE_LINKER__binary_Debug CMakeFiles/binary.dir/bina
   TARGET_IMPLIB = libbinary.dll.a
   TARGET_PDB = binary.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target hash
+
+
+#############################################
+# Order-only phony target for hash
+
+build cmake_object_order_depends_target_hash: phony || CMakeFiles/hash.dir
+
+build CMakeFiles/hash.dir/hash.cpp.obj: CXX_COMPILER__hash_Debug D$:/repository/data-structures-and-algorithms/search/hash.cpp || cmake_object_order_depends_target_hash
+  DEP_FILE = CMakeFiles\hash.dir\hash.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\hash.dir
+  OBJECT_FILE_DIR = CMakeFiles\hash.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hash
+
+
+#############################################
+# Link the executable hash.exe
+
+build hash.exe: CXX_EXECUTABLE_LINKER__hash_Debug CMakeFiles/hash.dir/hash.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\hash.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = hash.exe
+  TARGET_IMPLIB = libhash.dll.a
+  TARGET_PDB = hash.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -134,6 +167,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build binary: phony binary.exe
 
+build hash: phony hash.exe
+
 build linear: phony linear.exe
 
 # =============================================================================
@@ -144,7 +179,7 @@ build linear: phony linear.exe
 #############################################
 # Folder: D:/repository/data-structures-and-algorithms/search/cmake-build-debug
 
-build all: phony linear.exe binary.exe
+build all: phony linear.exe binary.exe hash.exe
 
 # =============================================================================
 # Built-in targets
